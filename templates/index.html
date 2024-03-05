@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title>BMI Calculator</title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="description" content="" />
+
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet"  href="{{ url_for('static' ,filename='style.css')}}">
+  <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous"-->
+</head>
+
+<body>
+
+  
+<div class="main">
+  <h1>BMI Calculator</h1>
+  <div class="bod">
+    
+ <form method="POST" action="/">
+  <label for="weight">Enter Your Weight(kgs):</label>
+  <input type="text" class="form-control" name="weight"><br>
+  <label for="height">Enter Your Height(cms):<label>
+  <input type="text" class="form-control" name="height"><br>
+  <button type="submit" class="pure-button pure-button-primary" value="submit">Calculate BMI</button>
+ </form>
+</div>
+
+</div>
+<div class="result">
+  
+  {% if bmi %}
+  <img src="https://i.ibb.co/8jpnVvm/download-removebg-preview.png" alt="BMI Result Image">
+  <h2> Your BMI Result</h2>
+  <p> <strong>Your BMI is: </strong> {{ bmi }}</p>
+  {% endif %}
+</div>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+h1{
+    background-color: #4bee76;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    margin-top:0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+h2{
+    color: green;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(30, 120, 216);
+    font-weight: bold;
+    border: none;
+    color: white;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(2, 52, 94);;
+}
+
+
+.main{
+      max-width: 400px;
+      margin: 50px auto;
+      border: 1px solid gray;
+      border-radius: 5px;
+    
+
+
+}
+
+.result{
+     max-width: 300px;
+    
+     border-radius: 5px;
+     margin: 50px auto;
+     height: 350px;
+     
+    
+}
+
+img {
+    
+    max-width: 50%;
+    height: 50%;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 20px;
+    align-items: center;
+}
+label {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 20px;
+}
+.bod{
+    
+      padding: 20px;
+    
+}
+
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #030b14;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+input[type="text"]:hover{
+    border:1px solid rgb(188, 183, 183);
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
